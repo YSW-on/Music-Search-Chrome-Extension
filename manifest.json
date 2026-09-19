@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Music Search",
+  "version": "1.0",
+  "description": "Detects the music currently playing in the tab using the AudD API",
+  "permissions": [
+    "tabCapture",
+    "activeTab",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://lis.tn/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/16px.png",
+    "48": "icons/48px.png",
+    "128": "icons/128px.png"
+  }
+}
